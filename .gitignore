@@ -1,0 +1,41 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+backend-cb/dist/
+frontend-cb/.next/
+frontend-cb/out/
+
+# Coverage
+coverage/
+
+# Env files
+.env
+.env.*
+
+# Local tooling
+.vscode/
+.DS_Store
+
+# Hidden folders (keep .git and .github)
+.*/
+!.git/
+!.github/
+
+# Vercel
+.vercel/
+
+# Credentials
+client_secret_*.json
+
+# Optional caches
+.turbo/
+.next/
+
+
